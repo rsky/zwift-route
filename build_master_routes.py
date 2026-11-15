@@ -8,8 +8,8 @@ from bs4 import BeautifulSoup
 OUTPUT_JSON = "master_routes.json"
 
 GITHUB_DATA_URLS = [
-    "https://raw.githubusercontent.com/jeroni7100/zwift-data/master/routes.json",
-    "https://raw.githubusercontent.com/zoffline/zwift-offline/master/data/routes.json",
+    # "https://raw.githubusercontent.com/jeroni7100/zwift-data/master/routes.json",
+    # "https://raw.githubusercontent.com/zoffline/zwift-offline/master/data/routes.json",
 ]
 
 ZWIFT_INSIDER_URL = "https://zwiftinsider.com/routes/"
@@ -22,7 +22,7 @@ def parse_number(val, as_int: bool = False):
     if isinstance(val, (int, float)):
         return int(val) if as_int else float(val)
 
-    cleaned = re.sub(r"[^\d\.]", "", str(val))
+    cleaned = re.sub(r"[^\d\.]", "", re.sub(r"\(.+", "", str(val)))
     if not cleaned:
         return 0 if as_int else 0.0
     num = float(cleaned)
@@ -83,8 +83,8 @@ def normalize_record(raw: dict) -> dict | None:
     elev_val += parse_number(lead_elev, as_int=True)
 
     # 5. バッジXP
-    xp = raw.get("xp") or raw.get("experience") or raw.get("badge_xp") or 0
-    xp_val = parse_number(xp, as_int=True)
+    # xp = raw.get("xp") or raw.get("experience") or raw.get("badge_xp") or 0
+    # xp_val = parse_number(xp, as_int=True)
 
     return {
         "name": str(name).strip(),
@@ -93,7 +93,7 @@ def normalize_record(raw: dict) -> dict | None:
         "lead_in_km": lead_in_km,
         "total_distance_km": total_km,
         "elevation_m": elev_val,
-        "xp": xp_val,
+        # "xp": xp_val,
     }
 
 
@@ -158,8 +158,8 @@ def fetch_from_html_table(url_or_path: str) -> list[dict]:
         "world": 1,
         "distance": 2,
         "elevation": 3,
-        "lead_in": None,
-        "xp": 4,
+        "lead_in": 4,
+        # "xp": 4,
     }
 
     for i, h in enumerate(headers_text):
@@ -173,8 +173,8 @@ def fetch_from_html_table(url_or_path: str) -> list[dict]:
             col_idx["distance"] = i
         elif "elevation" in h or "ascent" in h:
             col_idx["elevation"] = i
-        elif "xp" in h:
-            col_idx["xp"] = i
+        # elif "xp" in h:
+        #    col_idx["xp"] = i
 
     results = []
     required_max_idx = max(v for v in col_idx.values() if v is not None)
@@ -203,7 +203,7 @@ def fetch_from_html_table(url_or_path: str) -> list[dict]:
             else parse_number(cells[col_idx["elevation"]], as_int=True)
         )
 
-        xp_val = parse_number(cells[col_idx["xp"]], as_int=True)
+        # xp_val = parse_number(cells[col_idx["xp"]], as_int=True)
 
         results.append({
             "name": name,
@@ -212,7 +212,7 @@ def fetch_from_html_table(url_or_path: str) -> list[dict]:
             "lead_in_km": lead_in_km,
             "total_distance_km": total_km,
             "elevation_m": elev_m,
-            "xp": xp_val,
+            # "xp": xp_val,
         })
 
     return results

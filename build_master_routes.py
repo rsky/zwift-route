@@ -160,6 +160,7 @@ def fetch_from_html_table(url_or_path: str) -> list[dict]:
         "elevation": 3,
         "lead_in": 4,
         # "xp": 4,
+        "restriction": 5,
     }
 
     for i, h in enumerate(headers_text):
@@ -175,6 +176,8 @@ def fetch_from_html_table(url_or_path: str) -> list[dict]:
             col_idx["elevation"] = i
         # elif "xp" in h:
         #    col_idx["xp"] = i
+        elif "restriction" in h:
+            col_idx["restriction"] = i
 
     results = []
     required_max_idx = max(v for v in col_idx.values() if v is not None)
@@ -204,6 +207,10 @@ def fetch_from_html_table(url_or_path: str) -> list[dict]:
         )
 
         # xp_val = parse_number(cells[col_idx["xp"]], as_int=True)
+
+        restriction = cells[col_idx["restriction"]]
+        if "Event Only" in restriction:
+            continue
 
         results.append({
             "name": name,

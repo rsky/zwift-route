@@ -8,22 +8,6 @@
     "elevation_m": 236
   },
   {
-    "name": "Downtown Dolphin",
-    "world": "Crit City",
-    "distance_km": 2.0,
-    "lead_in_km": 0.0,
-    "total_distance_km": 2.0,
-    "elevation_m": 17
-  },
-  {
-    "name": "The Bell Lap",
-    "world": "Crit City",
-    "distance_km": 2.0,
-    "lead_in_km": 0.0,
-    "total_distance_km": 2.0,
-    "elevation_m": 17
-  },
-  {
     "name": "Bon Voyage",
     "world": "France",
     "distance_km": 28.2,
@@ -56,14 +40,6 @@
     "elevation_m": 133
   },
   {
-    "name": "France Classic Fondo",
-    "world": "France",
-    "distance_km": 145.9,
-    "lead_in_km": 1.0,
-    "total_distance_km": 146.9,
-    "elevation_m": 1099
-  },
-  {
     "name": "Gentil 8",
     "world": "France",
     "distance_km": 23.2,
@@ -94,14 +70,6 @@
     "lead_in_km": 0.4,
     "total_distance_km": 22.8,
     "elevation_m": 1201
-  },
-  {
-    "name": "Macaron",
-    "world": "France",
-    "distance_km": 2.6,
-    "lead_in_km": 0.0,
-    "total_distance_km": 2.6,
-    "elevation_m": 15
   },
   {
     "name": "Peaky Pavé",
@@ -192,46 +160,6 @@
     "elevation_m": 1534
   },
   {
-    "name": "Gravel Mountain",
-    "world": "Gravel Mountain",
-    "distance_km": 5.22,
-    "lead_in_km": 0.0,
-    "total_distance_km": 5.22,
-    "elevation_m": 51
-  },
-  {
-    "name": "Gravel Mountain Reverse",
-    "world": "Gravel Mountain",
-    "distance_km": 5.13,
-    "lead_in_km": 0.0,
-    "total_distance_km": 5.13,
-    "elevation_m": 51
-  },
-  {
-    "name": "Red Rock Loop",
-    "world": "Gravel Mountain",
-    "distance_km": 2.6,
-    "lead_in_km": 0.1,
-    "total_distance_km": 2.7,
-    "elevation_m": 29
-  },
-  {
-    "name": "Red Rock Loop Arcade",
-    "world": "Gravel Mountain",
-    "distance_km": 2.6,
-    "lead_in_km": 0.1,
-    "total_distance_km": 2.7,
-    "elevation_m": 29
-  },
-  {
-    "name": "Red Rock Loop Reverse",
-    "world": "Gravel Mountain",
-    "distance_km": 2.6,
-    "lead_in_km": 0.0,
-    "total_distance_km": 2.6,
-    "elevation_m": 27
-  },
-  {
     "name": "2018 Worlds Short Lap",
     "world": "Innsbruck",
     "distance_km": 23.6,
@@ -254,14 +182,6 @@
     "lead_in_km": 0.2,
     "total_distance_km": 37.1,
     "elevation_m": 656
-  },
-  {
-    "name": "InnsbruckConti",
-    "world": "Innsbruck",
-    "distance_km": 12.5,
-    "lead_in_km": 0.5,
-    "total_distance_km": 13.0,
-    "elevation_m": 480
   },
   {
     "name": "Innsbruckring",
@@ -288,14 +208,6 @@
     "elevation_m": 402
   },
   {
-    "name": "Classique Reverse",
-    "world": "London",
-    "distance_km": 5.4,
-    "lead_in_km": 7.6,
-    "total_distance_km": 13.0,
-    "elevation_m": 25
-  },
-  {
     "name": "Greater London 8",
     "world": "London",
     "distance_km": 23.8,
@@ -320,14 +232,6 @@
     "elevation_m": 222
   },
   {
-    "name": "Greater London Loop Reverse",
-    "world": "London",
-    "distance_km": 21.0,
-    "lead_in_km": 0.0,
-    "total_distance_km": 21.0,
-    "elevation_m": 255
-  },
-  {
     "name": "Greatest London Flat",
     "world": "London",
     "distance_km": 23.6,
@@ -344,43 +248,11 @@
     "elevation_m": 356
   },
   {
-    "name": "Greatest London Loop Reverse",
-    "world": "London",
-    "distance_km": 25.6,
-    "lead_in_km": 0.2,
-    "total_distance_km": 25.8,
-    "elevation_m": 318
-  },
-  {
-    "name": "Keith Hill After Party",
-    "world": "London",
-    "distance_km": 36.2,
-    "lead_in_km": 0.6,
-    "total_distance_km": 36.8,
-    "elevation_m": 431
-  },
-  {
-    "name": "Leith Hill After Party",
-    "world": "London",
-    "distance_km": 41.5,
-    "lead_in_km": 0.6,
-    "total_distance_km": 42.1,
-    "elevation_m": 435
-  },
-  {
     "name": "London 8",
     "world": "London",
     "distance_km": 20.3,
     "lead_in_km": 0.6,
     "total_distance_km": 20.9,
-    "elevation_m": 219
-  },
-  {
-    "name": "London 8 Reverse",
-    "world": "London",
-    "distance_km": 20.3,
-    "lead_in_km": 0.2,
-    "total_distance_km": 20.5,
     "elevation_m": 219
   },
   {
@@ -413,14 +285,6 @@
     "distance_km": 14.9,
     "lead_in_km": 0.6,
     "total_distance_km": 15.5,
-    "elevation_m": 231
-  },
-  {
-    "name": "London Loop Reverse",
-    "world": "London",
-    "distance_km": 14.8,
-    "lead_in_km": 0.2,
-    "total_distance_km": 15.0,
     "elevation_m": 231
   },
   {
@@ -470,14 +334,6 @@
     "lead_in_km": 0.5,
     "total_distance_km": 41.4,
     "elevation_m": 565
-  },
-  {
-    "name": "ZG25 Climb Champs",
-    "world": "London",
-    "distance_km": 4.7,
-    "lead_in_km": 0.3,
-    "total_distance_km": 5.0,
-    "elevation_m": 156
   },
   {
     "name": "Bridges and Boardwalks",
@@ -662,14 +518,6 @@
     "lead_in_km": 0.2,
     "total_distance_km": 24.5,
     "elevation_m": 168
-  },
-  {
-    "name": "Neokyo Crit Course",
-    "world": "Makuri Islands",
-    "distance_km": 3.9,
-    "lead_in_km": 0.7,
-    "total_distance_km": 4.6,
-    "elevation_m": 19
   },
   {
     "name": "Neon After Party",
@@ -872,14 +720,6 @@
     "elevation_m": 78
   },
   {
-    "name": "2022 Cycling Esports World Championships Route",
-    "world": "New York",
-    "distance_km": 54.7,
-    "lead_in_km": 0.2,
-    "total_distance_km": 54.9,
-    "elevation_m": 943
-  },
-  {
     "name": "Astoria Line 8",
     "world": "New York",
     "distance_km": 11.5,
@@ -960,27 +800,11 @@
     "elevation_m": 96
   },
   {
-    "name": "Gotham Grind Reverse",
-    "world": "New York",
-    "distance_km": 9.3,
-    "lead_in_km": 0.0,
-    "total_distance_km": 9.3,
-    "elevation_m": 96
-  },
-  {
     "name": "Grand Central Circuit",
     "world": "New York",
     "distance_km": 6.8,
     "lead_in_km": 1.5,
     "total_distance_km": 8.3,
-    "elevation_m": 144
-  },
-  {
-    "name": "Grand Central Circuit Reverse",
-    "world": "New York",
-    "distance_km": 6.8,
-    "lead_in_km": 2.4,
-    "total_distance_km": 9.2,
     "elevation_m": 144
   },
   {
@@ -1040,22 +864,6 @@
     "elevation_m": 326
   },
   {
-    "name": "LaGuardia Loop",
-    "world": "New York",
-    "distance_km": 2.8,
-    "lead_in_km": 1.5,
-    "total_distance_km": 4.3,
-    "elevation_m": 27
-  },
-  {
-    "name": "LaGuardia Loop Reverse",
-    "world": "New York",
-    "distance_km": 2.8,
-    "lead_in_km": 2.4,
-    "total_distance_km": 5.2,
-    "elevation_m": 27
-  },
-  {
     "name": "Lady Liberty",
     "world": "New York",
     "distance_km": 12.4,
@@ -1096,14 +904,6 @@
     "elevation_m": 126
   },
   {
-    "name": "Park Perimeter Reverse",
-    "world": "New York",
-    "distance_km": 9.8,
-    "lead_in_km": 0.2,
-    "total_distance_km": 10.0,
-    "elevation_m": 126
-  },
-  {
     "name": "Park to Peak",
     "world": "New York",
     "distance_km": 4.6,
@@ -1133,14 +933,6 @@
     "distance_km": 2.5,
     "lead_in_km": 0.3,
     "total_distance_km": 2.8,
-    "elevation_m": 0
-  },
-  {
-    "name": "Shuman Trail Loop Reverse",
-    "world": "New York",
-    "distance_km": 2.5,
-    "lead_in_km": 0.1,
-    "total_distance_km": 2.6,
     "elevation_m": 0
   },
   {
@@ -1176,14 +968,6 @@
     "elevation_m": 70
   },
   {
-    "name": "The 6 Train Reverse",
-    "world": "New York",
-    "distance_km": 6.5,
-    "lead_in_km": 0.0,
-    "total_distance_km": 6.5,
-    "elevation_m": 70
-  },
-  {
     "name": "The Double Borough",
     "world": "New York",
     "distance_km": 17.8,
@@ -1205,14 +989,6 @@
     "distance_km": 10.5,
     "lead_in_km": 9.9,
     "total_distance_km": 20.4,
-    "elevation_m": 179
-  },
-  {
-    "name": "The Highline Reverse",
-    "world": "New York",
-    "distance_km": 10.5,
-    "lead_in_km": 10.5,
-    "total_distance_km": 21.0,
     "elevation_m": 179
   },
   {
@@ -1336,14 +1112,6 @@
     "elevation_m": 34
   },
   {
-    "name": "Sacré Trois!",
-    "world": "Paris",
-    "distance_km": 24.1,
-    "lead_in_km": 3.1,
-    "total_distance_km": 27.2,
-    "elevation_m": 217
-  },
-  {
     "name": "2015 Worlds Course",
     "world": "Richmond",
     "distance_km": 16.3,
@@ -1358,14 +1126,6 @@
     "lead_in_km": 0.2,
     "total_distance_km": 9.4,
     "elevation_m": 117
-  },
-  {
-    "name": "Cobbled Climbs Reverse",
-    "world": "Richmond",
-    "distance_km": 9.2,
-    "lead_in_km": 0.0,
-    "total_distance_km": 9.2,
-    "elevation_m": 116
   },
   {
     "name": "Cobbled Crown",
@@ -1448,22 +1208,6 @@
     "elevation_m": 34
   },
   {
-    "name": "Glasgow Crit Six",
-    "world": "Scotland",
-    "distance_km": 18.1,
-    "lead_in_km": 0.2,
-    "total_distance_km": 18.3,
-    "elevation_m": 199
-  },
-  {
-    "name": "Glasgow Reverse",
-    "world": "Scotland",
-    "distance_km": 3.0,
-    "lead_in_km": 1.1,
-    "total_distance_km": 4.1,
-    "elevation_m": 34
-  },
-  {
     "name": "Highland Run",
     "world": "Scotland",
     "distance_km": 5.7,
@@ -1528,43 +1272,11 @@
     "elevation_m": 282
   },
   {
-    "name": "1 x 3 Min Lightning Lap",
-    "world": "Watopia",
-    "distance_km": 5.0,
-    "lead_in_km": 5.0,
-    "total_distance_km": 10.0,
-    "elevation_m": 0
-  },
-  {
-    "name": "1 x 4 Min Lightning Lap",
-    "world": "Watopia",
-    "distance_km": 5.0,
-    "lead_in_km": 4.9,
-    "total_distance_km": 9.9,
-    "elevation_m": 0
-  },
-  {
     "name": "11.1 Ocean Blvd",
     "world": "Watopia",
     "distance_km": 11.15,
     "lead_in_km": 0.5,
     "total_distance_km": 11.65,
-    "elevation_m": 0
-  },
-  {
-    "name": "3 x 3 Min Lightning Laps",
-    "world": "Watopia",
-    "distance_km": 15.0,
-    "lead_in_km": 5.0,
-    "total_distance_km": 20.0,
-    "elevation_m": 0
-  },
-  {
-    "name": "4 x 4 Min Lightning Laps",
-    "world": "Watopia",
-    "distance_km": 20.0,
-    "lead_in_km": 4.9,
-    "total_distance_km": 24.9,
     "elevation_m": 0
   },
   {
@@ -1576,14 +1288,6 @@
     "elevation_m": 0
   },
   {
-    "name": "6 x 4 Min Lightning Laps",
-    "world": "Watopia",
-    "distance_km": 30.0,
-    "lead_in_km": 4.9,
-    "total_distance_km": 34.9,
-    "elevation_m": 0
-  },
-  {
     "name": "Accelerate to Elevate",
     "world": "Watopia",
     "distance_km": 41.0,
@@ -1592,28 +1296,12 @@
     "elevation_m": 1153
   },
   {
-    "name": "Bambino Fondo",
-    "world": "Watopia",
-    "distance_km": 52.1,
-    "lead_in_km": 0.5,
-    "total_distance_km": 52.6,
-    "elevation_m": 581
-  },
-  {
     "name": "Beach Island Loop",
     "world": "Watopia",
     "distance_km": 13.1,
     "lead_in_km": 0.2,
     "total_distance_km": 13.3,
     "elevation_m": 44
-  },
-  {
-    "name": "Better Lap Than Never",
-    "world": "Watopia",
-    "distance_km": 15.1,
-    "lead_in_km": 35.3,
-    "total_distance_km": 50.4,
-    "elevation_m": 185
   },
   {
     "name": "Big Flat 8",
@@ -1638,14 +1326,6 @@
     "lead_in_km": 0.5,
     "total_distance_km": 42.6,
     "elevation_m": 661
-  },
-  {
-    "name": "Big Loop Reverse",
-    "world": "Watopia",
-    "distance_km": 42.5,
-    "lead_in_km": 0.2,
-    "total_distance_km": 42.7,
-    "elevation_m": 663
   },
   {
     "name": "Bigger Loop",
@@ -1694,14 +1374,6 @@
     "lead_in_km": 0.3,
     "total_distance_km": 8.25,
     "elevation_m": 0
-  },
-  {
-    "name": "Chili Pepper Reverse",
-    "world": "Watopia",
-    "distance_km": 7.3,
-    "lead_in_km": 0.2,
-    "total_distance_km": 7.5,
-    "elevation_m": 46
   },
   {
     "name": "Climb Control",
@@ -1848,14 +1520,6 @@
     "elevation_m": 61
   },
   {
-    "name": "Flat Route Reverse",
-    "world": "Watopia",
-    "distance_km": 10.2,
-    "lead_in_km": 0.2,
-    "total_distance_km": 10.4,
-    "elevation_m": 61
-  },
-  {
     "name": "Four Foalsmen",
     "world": "Watopia",
     "distance_km": 67.9,
@@ -1888,22 +1552,6 @@
     "elevation_m": 63
   },
   {
-    "name": "Gran Fondo",
-    "world": "Watopia",
-    "distance_km": 97.3,
-    "lead_in_km": 0.5,
-    "total_distance_km": 97.8,
-    "elevation_m": 1196
-  },
-  {
-    "name": "Handful of Gravel",
-    "world": "Watopia",
-    "distance_km": 6.1,
-    "lead_in_km": 4.1,
-    "total_distance_km": 10.2,
-    "elevation_m": 75
-  },
-  {
     "name": "Hilltop Hustle",
     "world": "Watopia",
     "distance_km": 13.6,
@@ -1918,38 +1566,6 @@
     "lead_in_km": 0.0,
     "total_distance_km": 9.3,
     "elevation_m": 109
-  },
-  {
-    "name": "Hilly Route Reverse",
-    "world": "Watopia",
-    "distance_km": 9.3,
-    "lead_in_km": 0.2,
-    "total_distance_km": 9.5,
-    "elevation_m": 109
-  },
-  {
-    "name": "Hot Laps",
-    "world": "Watopia",
-    "distance_km": 23.3,
-    "lead_in_km": 0.2,
-    "total_distance_km": 23.5,
-    "elevation_m": 149
-  },
-  {
-    "name": "Island Interlude",
-    "world": "Watopia",
-    "distance_km": 49.2,
-    "lead_in_km": 0.9,
-    "total_distance_km": 50.1,
-    "elevation_m": 254
-  },
-  {
-    "name": "Italian Villas Circuit",
-    "world": "Watopia",
-    "distance_km": 1.92,
-    "lead_in_km": 0.8,
-    "total_distance_km": 2.72,
-    "elevation_m": 11
   },
   {
     "name": "Itza Climb Finish",
@@ -1990,14 +1606,6 @@
     "lead_in_km": 5.7,
     "total_distance_km": 13.6,
     "elevation_m": 82
-  },
-  {
-    "name": "Jungle Circuit Reverse",
-    "world": "Watopia",
-    "distance_km": 7.9,
-    "lead_in_km": 6.3,
-    "total_distance_km": 14.2,
-    "elevation_m": 83
   },
   {
     "name": "Jurassic Coast",
@@ -2056,14 +1664,6 @@
     "elevation_m": 196
   },
   {
-    "name": "Loopipelago",
-    "world": "Watopia",
-    "distance_km": 18.5,
-    "lead_in_km": 2.1,
-    "total_distance_km": 20.6,
-    "elevation_m": 35
-  },
-  {
     "name": "May Field",
     "world": "Watopia",
     "distance_km": 0.4,
@@ -2102,22 +1702,6 @@
     "lead_in_km": 0.3,
     "total_distance_km": 21.3,
     "elevation_m": 219
-  },
-  {
-    "name": "Medio Fondo",
-    "world": "Watopia",
-    "distance_km": 72.9,
-    "lead_in_km": 0.5,
-    "total_distance_km": 73.4,
-    "elevation_m": 1010
-  },
-  {
-    "name": "Miles of Isles",
-    "world": "Watopia",
-    "distance_km": 27.2,
-    "lead_in_km": 1.8,
-    "total_distance_km": 29.0,
-    "elevation_m": 161
   },
   {
     "name": "Molten Momentum",
@@ -2224,14 +1808,6 @@
     "elevation_m": 205
   },
   {
-    "name": "Power to the Portal",
-    "world": "Watopia",
-    "distance_km": 17.6,
-    "lead_in_km": 0.9,
-    "total_distance_km": 18.5,
-    "elevation_m": 99
-  },
-  {
     "name": "Power to the Tower",
     "world": "Watopia",
     "distance_km": 43.8,
@@ -2272,28 +1848,12 @@
     "elevation_m": 276
   },
   {
-    "name": "Road to Ruins Reverse",
-    "world": "Watopia",
-    "distance_km": 29.6,
-    "lead_in_km": 0.2,
-    "total_distance_km": 29.8,
-    "elevation_m": 276
-  },
-  {
     "name": "Road to Sky",
     "world": "Watopia",
     "distance_km": 17.3,
     "lead_in_km": 0.1,
     "total_distance_km": 17.4,
     "elevation_m": 1045
-  },
-  {
-    "name": "Run Path Reverse",
-    "world": "Watopia",
-    "distance_km": 5.0,
-    "lead_in_km": 0.3,
-    "total_distance_km": 5.3,
-    "elevation_m": 0
   },
   {
     "name": "Sand and Sequoias",
@@ -2368,14 +1928,6 @@
     "elevation_m": 336
   },
   {
-    "name": "Spiral Summit",
-    "world": "Watopia",
-    "distance_km": 24.0,
-    "lead_in_km": 0.0,
-    "total_distance_km": 24.0,
-    "elevation_m": 283
-  },
-  {
     "name": "Splash and Dash",
     "world": "Watopia",
     "distance_km": 5.92,
@@ -2429,14 +1981,6 @@
     "distance_km": 6.43,
     "lead_in_km": 0.3,
     "total_distance_km": 6.73,
-    "elevation_m": 0
-  },
-  {
-    "name": "That's Amore Reverse",
-    "world": "Watopia",
-    "distance_km": 7.4,
-    "lead_in_km": 0.1,
-    "total_distance_km": 7.5,
     "elevation_m": 0
   },
   {
@@ -2510,14 +2054,6 @@
     "lead_in_km": 0.0,
     "total_distance_km": 48.0,
     "elevation_m": 897
-  },
-  {
-    "name": "Three Sisters Reverse",
-    "world": "Watopia",
-    "distance_km": 45.5,
-    "lead_in_km": 0.2,
-    "total_distance_km": 45.7,
-    "elevation_m": 884
   },
   {
     "name": "Three Step Sisters",
@@ -2616,36 +2152,12 @@
     "elevation_m": 203
   },
   {
-    "name": "Volcano Climb After Party",
-    "world": "Watopia",
-    "distance_km": 40.3,
-    "lead_in_km": 0.0,
-    "total_distance_km": 40.3,
-    "elevation_m": 287
-  },
-  {
     "name": "Volcano Flat",
     "world": "Watopia",
     "distance_km": 12.3,
     "lead_in_km": 0.0,
     "total_distance_km": 12.3,
     "elevation_m": 50
-  },
-  {
-    "name": "Volcano Flat Reverse",
-    "world": "Watopia",
-    "distance_km": 12.3,
-    "lead_in_km": 0.2,
-    "total_distance_km": 12.5,
-    "elevation_m": 50
-  },
-  {
-    "name": "WBR Climbing Series",
-    "world": "Watopia",
-    "distance_km": 43.4,
-    "lead_in_km": 0.0,
-    "total_distance_km": 43.4,
-    "elevation_m": 1118
   },
   {
     "name": "Waisted 8",
@@ -2696,36 +2208,12 @@
     "elevation_m": 896
   },
   {
-    "name": "Zwift Bambino Fondo 2022",
-    "world": "Watopia",
-    "distance_km": 53.1,
-    "lead_in_km": 0.2,
-    "total_distance_km": 53.3,
-    "elevation_m": 398
-  },
-  {
     "name": "Zwift Games 2024 Epic",
     "world": "Watopia",
     "distance_km": 79.6,
     "lead_in_km": 1.9,
     "total_distance_km": 81.5,
     "elevation_m": 821
-  },
-  {
-    "name": "Zwift Gran Fondo 2022",
-    "world": "Watopia",
-    "distance_km": 92.5,
-    "lead_in_km": 0.2,
-    "total_distance_km": 92.7,
-    "elevation_m": 1116
-  },
-  {
-    "name": "Zwift Medio Fondo 2022",
-    "world": "Watopia",
-    "distance_km": 79.2,
-    "lead_in_km": 0.2,
-    "total_distance_km": 79.4,
-    "elevation_m": 922
   },
   {
     "name": "2019 Worlds Harrogate Circuit",

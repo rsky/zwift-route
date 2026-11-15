@@ -1,0 +1,11 @@
+[project]
+name = "zwift-route"
+version = "0.1.0"
+description = "Zwiftのルートデータ収集・完走時間推定・グルーピング・未踏ルート抽出ツール"
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+    "bs4",
+    "ocrmac",
+    "pillow",
+]

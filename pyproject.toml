@@ -9,3 +9,5 @@ dependencies = [
     "ocrmac",
     "pillow",
 ]
+[tool.setuptools]
+py-modules = []
